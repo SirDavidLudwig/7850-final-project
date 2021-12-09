@@ -27,3 +27,7 @@ These pre-trained weights are supplied by default through this repository. If yo
 ### Models and Training
 
 Each of the models within this project are located in their own self-conatined Jupyter Notebooks. This project is organized such that each model is defined and fully trained within its own notebook. If you'd like to examine our training procedures, or even train your own version of the model, simply run the corresponding model's notebook. These notebooks are designed to run end-to-end, defining the model architecture, hyperparameters, training procedure, and evaluation.
+
+### Datasets
+
+The DNA-GAST model in this repository makes use of an in-house DNA dataset. As this dataset is too large to store in Git LFS, it is hosted externally and can be found [here](https://bin.dlii.tech/dnasamples.tar). To utilize this dataset appropriately in the model, the individual sample `.db` files should be located in `./datasets/dna`.
